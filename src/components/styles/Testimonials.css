@@ -1,0 +1,46 @@
+.testimonials {
+  background-color: #fff8e1;
+  padding: 3rem 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.testimonials p {
+  color: #757575;
+}
+
+.testimonials .list-unstyled {
+  padding-left: 0;
+}
+
+.testimonials .list-unstyled li {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.testimonials .list-unstyled li i {
+  font-size: 1.5rem;
+  color: #ff9800;
+  margin-right: 0.5rem;
+}
+
+.testimonials .img-fluid {
+  border-radius: 0.5rem;
+}
+
+.testimonials .shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .rounded {
+  border-radius: 0.5rem;
+}

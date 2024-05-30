@@ -1,0 +1,27 @@
+.why-join {
+  background-color: #fff8e1;
+  padding: 3rem 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.why-join .why-item {
+  border: none;
+  background-color: #2d2d2d;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.why-join .why-icon {
+  font-size: 2rem;
+}
+
+.why-join .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.why-join .card-text {
+  color: #c0c0c0;
+}

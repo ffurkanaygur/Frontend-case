@@ -1,0 +1,41 @@
+.banner {
+  background-color: #fff8e1;
+  padding: 3rem 0;
+  width: 100%;
+  margin: 0;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.banner p {
+  color: #757575;
+  margin-bottom: 2rem;
+}
+
+.banner .btn-outline-primary {
+  border-color: #7952b3;
+  color: #7952b3;
+}
+
+.banner .btn-outline-primary:hover {
+  background-color: #7952b3;
+  color: #fff;
+}
+
+.banner .btn-link {
+  color: #7952b3;
+}
+
+.banner .btn-link:hover {
+  text-decoration: none;
+  color: #7952b3;
+}
+
+.banner .position-relative {
+  height: 100%;
+}
+

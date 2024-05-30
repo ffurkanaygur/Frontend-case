@@ -1,0 +1,69 @@
+.collection {
+  background-color: #803300;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.collection .text-center h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.collection .text-center h2 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+.collection .world-map {
+  position: relative;
+  height: 500px;
+  margin-top: 2rem;
+  overflow: hidden; 
+}
+
+.collection .world-map::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/world-map.png'); 
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; 
+  z-index: 1;
+}
+
+.collection .info-box {
+  width: 200px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  position: relative; 
+  z-index: 2; 
+}
+
+.collection .info-box img {
+  width: 50px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.collection .info-box .info-text {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.collection .dot {
+  width: 15px;
+  height: 15px;
+  background-color: #00ff00;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+}
